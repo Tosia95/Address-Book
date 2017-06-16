@@ -1,8 +1,14 @@
 
 public class Menu {
-
-	public static void main(String[] args) {
+	
+	public Menu() {
+		
 		Contacts contact = new Contacts();
+	}
+	
+	
+	public static void main(String[] args) {
+
 	}
 
 }

@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Contacts {
 	
@@ -7,10 +6,12 @@ public class Contacts {
 	private Address address;
 	
 	public Scanner input = new Scanner(System.in);
-	HashMap<Person, Address> contacts = new HashMap<Person,Address>();
+	
+	HashMap<Person, Address> contacts;
 	
 	public Contacts () {
-		person
+		
+		contacts = new HashMap<Person,Address>();
 	}
 	
 	public void newPerson () {
